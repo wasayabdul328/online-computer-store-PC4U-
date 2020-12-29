@@ -1,0 +1,323 @@
+*{
+    padding: 0px 0px ;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+/* header,div{
+    padding: 0px 0px;
+    margin: 0px 0px;
+} */
+a{
+    color: #fff;
+}
+.nav-top{
+    height: 25px;
+    background: #064f88;
+    padding: 0 0;
+    line-height: 25px;
+    margin-top: 0;
+    width: 100%;
+    overflow: hidden;
+    
+}
+/* .navbar{
+    overflow: hidden;
+} */
+
+.nav-top .nav-top-right ul,.nav-top .nav-top-left ul{
+    
+    list-style: none;
+    overflow: hidden;
+}
+/* .nav-top .nav-top-right, .nav-top .nav-top-left{
+    margin: 0px 0px;
+} */
+.nav-top .nav-top-right ul li{
+    list-style: none;
+    float: left;
+    text-align: center;
+}
+.nav-top .nav-top-left ul li{
+    list-style: none;
+    float: right;
+    text-align: center;
+}
+.nav-top .nav-top-right ul li a,.nav-top .nav-top-left ul li a{
+   display: block;
+   padding: 0 10px 0 0;
+}
+.nav-top .nav-top-right a,.nav-top .nav-top-left a{ 
+    font-size: 12px;
+    font-weight: 300;
+    text-decoration: none;
+}
+
+.nav-top .nav-top-right a:hover,nav .nav-top .nav-top-left a:hover{
+    color: #fff600;
+    text-decoration: none;
+}
+.nav-middle{
+    background-color: #053f6b ;
+    /* overflow: hidden; */
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 40px;
+    font-stretch: ultra-expanded;
+}
+.navbar-brand:hover{
+    color: #fff600; 
+}
+.navbar .navbar-toggler-icon{
+    color: #fff600; 
+}
+.navbar-brand span{
+    color: #fff600;
+}
+.btn-search{
+    background: #fff600;
+    color: #064f88;
+    margin-top: 4px;
+    font-weight: 900;
+}
+.nav-bottom{
+    background-color: #04375e;
+    height: 42px;
+}
+.nav-bottom a:hover{
+    color: #fff600;
+    text-decoration: none;
+}
+/* navbar ends here */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-= */
+/* homeslider starts here */
+
+.home-slider img{
+    height: 420px;
+}
+ .home-slider .container{
+    width: 900px;
+}
+.home-slider .carousel-caption h5{
+    color: #a19e30;
+    text-transform: uppercase;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* feature-products section css */
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+#feature-product .feature-product-heading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;
+}
+/* #feature-product .feature-product-content .card .card-body .btn-details{
+    width: 100%;
+    background: ;
+    color: #fff;
+} */
+#feature-product .feature-product-content .card .card-body ul{
+    margin: 0 0 3px 0;
+    padding: 0px;
+}
+
+/* =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+/* =-=-=-=-=-=-=-=-footer=-=-=-=-=-=-=-=-=- */
+footer{margin-top: 20px;}
+#contact .contact-bg
+{
+    background:#41464b;
+}
+#contact .contact-bg .contact-bg-overlay{
+    background: rgba(0, 0,0, 0.1);
+}
+#contact .contact-left{
+    padding-bottom: 50px;;
+}
+.btn-white {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-white:hover , .btn-white:focus {
+    background-color: #fff;
+    color: #41464b;
+}
+
+#contact .contact-tittle h2{
+    color: #fff;
+    font-weight: 700;
+   
+}
+#contact .contact-tittle p{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+#contact address p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact address p strong{
+    font-size: 17px;
+    font-weight: 600;
+}
+#contact .phone-fax-email p{
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+}
+#contact .socil-media ul{
+    list-style: none;
+    padding: 0;
+}
+#contact .socil-media a{
+ color: #fff;
+ text-decoration: none;
+}
+#contact .socil-media ul li{
+    display: inline-block;
+    padding: 0 15px 0 0;
+}
+#contact .socil-media a:hover{
+    text-decoration: none;
+    color: #34c6d3;
+   }
+/* #contact .contact-right h2{
+    color: #fff;
+} */
+
+
+#contact .contact-right .form-control{
+    background:transparent;
+    border-radius: 0;
+    border: 1px solid #fff;
+}
+#contact .contact-right .form-control:focus{
+    background: #fff;
+}
+.footer .footer-bg{
+    background:#35393d;
+    padding: 23px 0 10px 0;
+}
+.footer p{
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+}
+.footer p a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 0 10px;
+
+}
+.footer p a:hover{
+  text-decoration: none;
+  color: #34c6d3;
+}
+
+#aboutus .aboutheading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;
+}
+#aboutus .aboutcontent{
+    padding: 0 0 10px 0;
+}
+
+#aboutus .aboutcontent p{
+    font-size: 14px;
+    font-weight: 300;
+}
+#policies .policiesheading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;
+}
+#policies h4{
+    font-size: 18px;
+    font-weight: 500;
+}
+#policies .policiescontent ol li{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* -=-=-=-=-=-=-=-=-=-=feedback page=-=-=-=-=-=- */
+
+#Feedbacks .feedbacks-heading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-Faqs-=-=-=-=-=-=-=- */
+#Faqs .Faqs-heading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;  
+}
+#Faqs .card{
+    margin: 0 0 10px 0;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=System builder-=-=-=-=-=-=-=-= */
+#custom-Builder .custom-Builder-heading{
+    width: 100%;
+    background-color: #e7e7e7;
+    margin: 30px 0 30px 0 ;
+    padding: 8px;
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-signup-=-=-=-=-=-=-=- */
+#signup .signup-content .content-box ,#login .login-content .content-box{
+    background: #e7e7e7;
+
+}
+/* -=-=-=-=-=-=-=-=-=-=-=-=-=-=- */
+.dropdown-color{
+    background-color: #1d649b;
+
+}
+.dropdown-color .dropdownitem{
+    color: #fff;
+}
+#id1{
+    cursor: pointer;
+}
+/* Cart Page */
+.cart-items table td{
+    color: #666;
+    font-size: 15px;
+}
+
+.cart-items table td a {
+    color: red;
+    font-size: 13px;
+    color: #555;
+}
+
+.cart-items .table > tbody > tr > td {
+     vertical-align: middle;
+}
+
+/* Checkout  */
+
+.your-order-table td {
+    font-size: 14px;
+    color: #666;
+    vertical-align: middle;
+}
+.anchorcolor{
+    color: black;
+}
